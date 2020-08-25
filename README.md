@@ -15,7 +15,7 @@ A simple coffee machine that dispenses drinks. It has the following properties.
 
 ### Usage
 * The input will be taken from `resources/input.json`.
-* Run `python3 main.py` to dispense drinks.
+* While being in the project root, run `python3 main.py` to dispense drinks.
 
 ### Output
 * Display result to stdout. Following is the example output.
@@ -24,4 +24,12 @@ hot_coffee is prepared
 hot_tea is prepared
 black_tea cannot be prepared because hot_water, sugar_syrup are not available
 green_tea cannot be prepared because sugar_syrup, green_mixture are not available
+```
+
+### Run tests
+While being in the project root run following commands;
+
+```
+cd tests
+pytest --verbose
 ```
