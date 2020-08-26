@@ -16,6 +16,7 @@ A simple coffee machine that dispenses drinks. It has the following properties.
 ### Usage
 * The input will be taken from `resources/input.json`.
 * While being in the project root, run `python3 main.py` to dispense drinks.
+NOTE: Required python is 3.8.5
 
 ### Output
 * Display result to stdout. Following is the example output.
